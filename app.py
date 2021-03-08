@@ -46,7 +46,7 @@ ANSWER_NORM = {
 }
 
 infermedica_url = 'https://api.infermedica.com/v2/{}'
-auth_string = str(IAPP_ID)+':'+str(INFERMEDICA_APP_KEY)
+auth_string = str(IAPP_ID)+':'+str(IAPP_KEY)
 firebase = pyrebase.initialize_app(firebaseConfig)
 firebaseDB = firebase.database()
 
