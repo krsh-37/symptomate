@@ -1,0 +1,87 @@
+config = {
+  "apiKey": "AIzaSyDZdq1_g9GNwim3MqJHMs2HZ7ELXgHAL_M",
+  "authDomain": "baymax-5d466.firebaseapp.com",
+  "databaseURL": "https://teting.asia-south1.firebasedatabase.app",
+  "storageBucket": "baymax-5d466.appspot.com"
+}
+
+
+
+{
+  "responseId": "62ee6086-ab73-4bac-b681-e486f3c40088-239d5462",
+  "queryResult": {
+    "queryText": "I am a 40 year old female",
+    "action": "getAgeSex",
+    "parameters": {
+      "age": {
+        "amount": 40,
+        "unit": "year"
+      },
+      "sex": "female"
+    },
+    "allRequiredParamsPresent": true,
+    "fulfillmentText": "Okay, 40 year old female . Describe your symptoms.",
+    "fulfillmentMessages": [
+      {
+        "text": {
+          "text": [
+            "Okay, 40 year old female . Describe your symptoms."
+          ]
+        }
+      }
+    ],
+    "outputContexts": [
+      {
+        "name": "projects/tuturu-g9bo/agent/sessions/f7386d2e-99e5-b257-c00d-7ff512a36cab/contexts/symptoms_prompt",
+        "lifespanCount": 5,
+        "parameters": {
+          "age": {
+            "amount": 40,
+            "unit": "year"
+          },
+          "age.original": "40",
+          "sex": "female",
+          "sex.original": "female"
+        }
+      },
+      {
+        "name": "projects/tuturu-g9bo/agent/sessions/f7386d2e-99e5-b257-c00d-7ff512a36cab/contexts/age_sex_prompt",
+        "lifespanCount": 5,
+        "parameters": {
+          "age": {
+            "amount": 40,
+            "unit": "year"
+          },
+          "age.original": "40",
+          "sex": "female",
+          "sex.original": "female"
+        }
+      },
+      {
+        "name": "projects/tuturu-g9bo/agent/sessions/f7386d2e-99e5-b257-c00d-7ff512a36cab/contexts/__system_counters__",
+        "parameters": {
+          "no-input": 0,
+          "no-match": 0,
+          "age": {
+            "amount": 40,
+            "unit": "year"
+          },
+          "age.original": "40",
+          "sex": "female",
+          "sex.original": "female"
+        }
+      }
+    ],
+    "intent": {
+      "name": "projects/tuturu-g9bo/agent/intents/e55ae737-b328-4bbf-9f01-7d1c57c696db",
+      "displayName": "Answer Age/Sex"
+    },
+    "intentDetectionConfidence": 1,
+    "languageCode": "en"
+  },
+  "originalDetectIntentRequest": {
+    "source": "DIALOGFLOW_CONSOLE",
+    "payload": {}
+  },
+  "session": "projects/tuturu-g9bo/agent/sessions/f7386d2e-99e5-b257-c00d-7ff512a36cab"
+}
